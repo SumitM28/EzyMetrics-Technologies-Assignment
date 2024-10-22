@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "a5be5f45-bfdf-43e0-a8f5-caf2df9a68c3",
+		"name": "API Service Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch Leads",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/crm/leads",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "5000",
+					"path": ["api", "crm", "leads"]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Campaigns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/marketing/campaigns",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "5000",
+					"path": ["api", "marketing", "campaigns"]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate PDF Report",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/pdf"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/reports/pdf",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "5000",
+					"path": ["api", "reports", "pdf"]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate CSV Report",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/csv"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/reports/csv",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "5000",
+					"path": ["api", "reports", "csv"]
+				}
+			},
+			"response": []
+		}
+	]
+}

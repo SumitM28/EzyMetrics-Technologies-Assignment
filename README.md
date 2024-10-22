@@ -147,7 +147,7 @@ The following API endpoints are available:
 
 ## Postman Collection
 
-You can test the API using the [Postman collection](https://www.getpostman.com/collections/your-postman-collection-url).
+You can test the API using the [Postman collection](https://github.com/SumitM28/EzyMetrics-Technologies-Assignment/blob/main/.json).
 
 To import the collection:
 1. Open Postman and click **Import**.
